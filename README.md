@@ -1,5 +1,5 @@
 # BLOGsy
-BLOGsy is a Blog Post Application where Users can see list of blog posts, add new post,  view the details , edit  and can delete the blog  post.
+BLOGsy is a Blog Post Application using Angular and Node where Users can see list of blog posts, add new post,  view the details , edit  and can delete the blog  post.
 
 # Setup Guide
 
