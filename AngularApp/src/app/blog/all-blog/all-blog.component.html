@@ -1,0 +1,14 @@
+  <body>
+  <ul class="blogs" *ngIf="blogs$ | async as blogs">
+    <h2>List of All Blog Posts</h2>  
+    <li *ngFor="let blog of blogs">
+      <div class="blogs content">        
+            <div class="single" >
+              <h3 class="title">{{blog.title}}  </h3>
+              <p class="snippet">{{ blog.snippet}}...<a id="link" [routerLink]="blog._id">Read more</a></p>
+            </div>       
+      </div>
+    </li>
+  </ul>
+</body>
+   

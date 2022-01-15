@@ -1,0 +1,13 @@
+<body>
+<div class="form-wrrap">
+    <h2>Add New Blog</h2><br>
+    <form [formGroup]="blogForm" (ngSubmit)="newBlog()">
+      <textarea rows="2" cols="120" type="text" placeholder="Enter Title" formControlName="title" ></textarea>
+      <textarea rows="3" cols="120" type="text" placeholder="Enter Snippet" formControlName="snippet" ></textarea>
+      
+      <textarea rows="10" cols="120" type="text" placeholder="Enter Blog Body" formControlName="body" ></textarea>
+      <br>
+      <input class="btn btn-info" type="submit" value="Add Blog" [disabled]="!blogForm.valid" />
+    </form>
+  </div>
+</body>

@@ -1,0 +1,22 @@
+<body>
+<div class="info-wrrap">
+    <h2>{{ blog.title }}</h2>    
+    <p>{{ blog.body }}</p>
+    <br>
+    <button class="btn btn-info" (click)="showEdit()">Edit</button>
+    <button class="btn btn-danger" (click)="removeBlog()">Delete</button>
+</div>
+<div class="form-wrrap" *ngIf="showForm">
+  <br><hr/>
+    <h2>Edit Blog</h2><br>
+    <form [formGroup]="editBlogForm" (ngSubmit)="editBlog()">
+      <textarea rows="2" cols="120" type="text"  [(ngModel)]="blog.title" placeholder="Enter Title" formControlName="title" ></textarea><br><br>
+      <textarea rows="3" cols="120" type="text" [(ngModel)]="blog.snippet" placeholder="Enter Snippet" formControlName="snippet" ></textarea><br><br>
+      
+      <textarea rows="14" cols="120" type="text" [(ngModel)]="blog.body" placeholder="Enter Blog Body" formControlName="body"></textarea><br><br>
+      
+      <input class="btn btn-info" type="submit" value="Save" [disabled]="!editBlogForm.valid" />
+   <br>
+    </form>
+  </div>
+</body>
