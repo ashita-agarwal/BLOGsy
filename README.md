@@ -21,3 +21,25 @@ BLOGsy is a Blog Post Application where Users can see list of blog posts, add ne
 2. Run "npm install" in terminal
 3. Now to run frontend --> Run "ng serve AngularApp" in terminal.
 4. Open URL "http://localhost:4200" in browser 
+
+# ScreenShots
+
+## Homepage (All blog posts)
+
+<img width="400" alt="homepage" src="https://user-images.githubusercontent.com/63288542/149618499-4d47585a-97e9-4897-a32d-60566c90d627.PNG">
+
+## Add blog post page
+
+<img width="400" alt="create blog" src="https://user-images.githubusercontent.com/63288542/149618508-64cc5186-3537-4182-8b6f-0ec000bc6bc1.PNG">
+
+## Edit Blog Post 
+
+<img width="400" alt="edit page" src="https://user-images.githubusercontent.com/63288542/149618513-aa6d857a-90ac-43f1-8dd3-12c20536eec7.PNG">
+
+## About us page
+
+<img width="400" alt="aboutus" src="https://user-images.githubusercontent.com/63288542/149618518-fd276c0f-3d11-4612-a5d0-7ecfb1914bd1.PNG">
+
+## View Blog post page
+
+<img width="400" alt="details page" src="https://user-images.githubusercontent.com/63288542/149618519-8cf76cd3-a01f-47f2-bc72-77f36f8291e2.PNG">
