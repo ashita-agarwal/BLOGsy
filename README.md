@@ -7,7 +7,7 @@ BLOGsy is a Blog Post Application where Users can see list of blog posts, add ne
 1. Signin/up to https://www.mongodb.com/cloud/atlas/register 
 2. Create a cluster and connect it to your application.
 3. Refer to : https://www.section.io/engineering-education/nodejs-mongoosejs-mongodb/
-4. Create a ".env" file in "NodeApp" Folder and write 
+4. Create a ".env" file in "NodeApp" Folder and write <br/>
   " DB_CONNECT = <----Paste_Your_Connection_String_Here----> "
 6. Do edit your password and desired database name in the connection string copied to .env file.
 
